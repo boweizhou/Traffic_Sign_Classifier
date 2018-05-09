@@ -141,7 +141,14 @@ If a well known architecture was chosen:
 Here are five German traffic signs that I found on the web:
 ![alt text](https://github.com/boweizhou/Traffic_Sign_Classifier/blob/master/images/images_from_german_signal_site.png)
 
+
+
+
+
 Here are how image looks like when convert to gray scale.
+
+
+
 ![alt text](https://github.com/boweizhou/Traffic_Sign_Classifier/blob/master/images/gray_image_germay_traffic_signal_site.png)
 
 Image4, "no vechicles", seems like difficult to recognize, cause there is not a clear pattern. 
@@ -152,31 +159,71 @@ Here are the results of the prediction:
 
 | Image			        |     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| Stop Sign      		| Stop sign   									| 
-| U-turn     			| U-turn 										|
-| Yield					| Yield											|
-| 100 km/h	      		| Bumpy Road					 				|
-| Slippery Road			| Slippery Road      							|
+| Speed limit 30      		| Speed limit 30    									| 
+| Bumpy road     			| Bumpy road 										|
+| Ahead only					| Ahead only												|
+| No Vehicles      		| No Vehicles					 				|
+| Go straigt or left			| Go straigt or left     							|
 
 
-The model was able to correctly guess 4 of the 5 traffic signs, which gives an accuracy of 80%. This compares favorably to the accuracy on the test set of ...
+The model was able to correctly guess 5 of the 5 traffic signs, which gives an accuracy of 100%. This compares favorably to the accuracy on the test set of 0.933.
 
 #### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
-The code for making predictions on my final model is located in the 11th cell of the Ipython notebook.
+The code for making predictions on my final model is located in the 29th cell of the Ipython notebook.
+Following are the results of the test. Accuracies for five selected signals are 100%.
 
-For the first image, the model is relatively sure that this is a stop sign (probability of 0.6), and the image does contain a stop sign. The top five soft max probabilities were
+the real signal is Speed limit (30km/h)
+Speed limit (30km/h) probability: 99.64
+Speed limit (50km/h) probability: 0.36
+Speed limit (70km/h) probability: 0.0
+Speed limit (20km/h) probability: 0.0
+Speed limit (60km/h) probability: 0.0
+Stop probability: 0.0
+*******************
+the real signal is Bumpy road
+Bumpy road probability: 99.8
+Bicycles crossing probability: 0.2
+Go straight or right probability: 0.0
+Dangerous curve to the right probability: 0.0
+Children crossing probability: 0.0
+Traffic signals probability: 0.0
+*******************
+the real signal is Ahead only
+Ahead only probability: 100.0
+Yield probability: 0.0
+Road work probability: 0.0
+Speed limit (60km/h) probability: 0.0
+Turn left ahead probability: 0.0
+Go straight or right probability: 0.0
+*******************
+the real signal is No vehicles
+No vehicles probability: 64.13
+Priority road probability: 34.5
+Yield probability: 0.76
+No passing probability: 0.6
+End of all speed and passing limits probability: 0.0
+Speed limit (60km/h) probability: 0.0
+*******************
+the real signal is Go straight or left
+Go straight or left probability: 100.0
+Traffic signals probability: 0.0
+Priority road probability: 0.0
+Right-of-way at the next intersection probability: 0.0
+Yield probability: 0.0
+Roundabout mandatory probability: 0.0
+*******************
+the real signal is General caution
+General caution probability: 100.0
+Pedestrians probability: 0.0
+Traffic signals probability: 0.0
+Right-of-way at the next intersection probability: 0.0
+Speed limit (30km/h) probability: 0.0
+Go straight or left probability: 0.0
+*******************
 
-| Probability         	|     Prediction	        					| 
-|:---------------------:|:---------------------------------------------:| 
-| .60         			| Stop sign   									| 
-| .20     				| U-turn 										|
-| .05					| Yield											|
-| .04	      			| Bumpy Road					 				|
-| .01				    | Slippery Road      							|
 
-
-For the second image ... 
+For the second image Bumpy road, 
 
 ### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
 #### 1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
