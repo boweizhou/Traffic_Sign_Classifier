@@ -51,21 +51,10 @@ Here is an exploratory visualization of the data set. It is a bar chart showing 
 As a first step, I convert the image from a 3 color RBG to a gray scale image which only include one color. Gray image seems to provide luminance which is by far more important in distinguishing visual features 
 
 Here is an example of a traffic sign image before and after grayscaling.
+![alt text](https://github.com/boweizhou/Traffic_Sign_Classifier/blob/modified3/images/original_image.png)
+![alt text](https://github.com/boweizhou/Traffic_Sign_Classifier/blob/modified3/images/gray_image.png)
 
-![alt text][https://github.com/boweizhou/Traffic_Sign_Classifier/blob/modified3/images/original_image.png]
-
-![alt text][https://github.com/boweizhou/Traffic_Sign_Classifier/blob/modified3/images/gray_image.png]
-As a last step, I normalized the image data because ...
-
-I decided to generate additional data because ... 
-
-To add more data to the the data set, I used the following techniques because ... 
-
-Here is an example of an original image and an augmented image:
-
-![alt text][image3]
-
-The difference between the original data set and the augmented data set is the following ... 
+As next step, I normalized the image data and gain smaller numbers. 
 
 
 #### 2. Describe what your final model architecture looks like including model type, layers, layer sizes, connectivity, etc.) Consider including a diagram and/or table describing the final model.
@@ -74,12 +63,20 @@ My final model consisted of the following layers:
 
 | Layer         		|     Description	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| Input         		| 32x32x3 RGB image   							| 
-| Convolution 3x3     	| 1x1 stride, same padding, outputs 32x32x64 	|
+| Input         		| 32x32x1 Gray image   							| 
+| Convolution 5x5     	| 1x1 stride, VALID padding, outputs 28x28x6 	|
 | RELU					|												|
-| Max pooling	      	| 2x2 stride,  outputs 16x16x64 				|
-| Convolution 3x3	    | etc.      									|
-| Fully connected		| etc.        									|
+| Max pooling	      	| 2x2 stride,  outputs 14x14x6 				|
+| Convolution 5x5	    | 1x1 stride, VALID padding, outputs 10x10x16   									|
+| RELU					|												|
+| Max pooling	      	| 2x2 stride,  outputs 5x5x16 				|
+| Flatten  shape = 400
+| Convolution 5x5	    | 1x1 stride, VALID padding, outputs 120  									|
+| RELU					|												|
+| Dropout  | keep 50%
+| Fully connected		| input 120 output 84        									|
+| RELU     |   									|
+| Fully connected |  input 84 output 43
 | Softmax				| etc.        									|
 |						|												|
 |						|												|
