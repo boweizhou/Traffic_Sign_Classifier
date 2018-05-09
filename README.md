@@ -141,7 +141,10 @@ If a well known architecture was chosen:
 Here are five German traffic signs that I found on the web:
 ![alt text](https://github.com/boweizhou/Traffic_Sign_Classifier/blob/master/images/images_from_german_signal_site.png)
 
-The first image might be difficult to classify because ...
+Here are how image looks like when convert to gray scale.
+![alt text](https://github.com/boweizhou/Traffic_Sign_Classifier/blob/master/images/gray_image_germay_traffic_signal_site.png)
+
+Image4, "no vechicles", seems like difficult to recognize, cause there is not a clear pattern. 
 
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
