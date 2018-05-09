@@ -173,15 +173,8 @@ The model was able to correctly guess 5 of the 5 traffic signs, which gives an a
 The code for making predictions on my final model is located in the 29th cell of the Ipython notebook.
 Following are the results of the test. Accuracies for five selected signals are 100%.
 
-the real signal is Speed limit (30km/h)
-Speed limit (30km/h) probability: 99.64
-Speed limit (50km/h) probability: 0.36
-Speed limit (70km/h) probability: 0.0
-Speed limit (20km/h) probability: 0.0
-Speed limit (60km/h) probability: 0.0
-Stop probability: 0.0
 *******************
-the real signal is Bumpy road
+1 real signal is Bumpy road
 Bumpy road probability: 99.8
 Bicycles crossing probability: 0.2
 Go straight or right probability: 0.0
@@ -189,7 +182,7 @@ Dangerous curve to the right probability: 0.0
 Children crossing probability: 0.0
 Traffic signals probability: 0.0
 *******************
-the real signal is Ahead only
+2 real signal is Ahead only
 Ahead only probability: 100.0
 Yield probability: 0.0
 Road work probability: 0.0
@@ -197,7 +190,7 @@ Speed limit (60km/h) probability: 0.0
 Turn left ahead probability: 0.0
 Go straight or right probability: 0.0
 *******************
-the real signal is No vehicles
+3 real signal is No vehicles
 No vehicles probability: 64.13
 Priority road probability: 34.5
 Yield probability: 0.76
@@ -205,7 +198,7 @@ No passing probability: 0.6
 End of all speed and passing limits probability: 0.0
 Speed limit (60km/h) probability: 0.0
 *******************
-the real signal is Go straight or left
+4 real signal is Go straight or left
 Go straight or left probability: 100.0
 Traffic signals probability: 0.0
 Priority road probability: 0.0
@@ -213,7 +206,7 @@ Right-of-way at the next intersection probability: 0.0
 Yield probability: 0.0
 Roundabout mandatory probability: 0.0
 *******************
-the real signal is General caution
+5 real signal is General caution
 General caution probability: 100.0
 Pedestrians probability: 0.0
 Traffic signals probability: 0.0
@@ -221,9 +214,6 @@ Right-of-way at the next intersection probability: 0.0
 Speed limit (30km/h) probability: 0.0
 Go straight or left probability: 0.0
 *******************
-
-
-For the second image Bumpy road, 
 
 ### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
 #### 1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
