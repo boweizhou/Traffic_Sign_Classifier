@@ -91,14 +91,19 @@ My final model consisted of the following layers:
 
 #### 3. Describe how you trained your model. The discussion can include the type of optimizer, the batch size, number of epochs and any hyperparameters such as learning rate.
 
-To train the model,
+To train the model, I have played with different number for epochs and learning rate. 
+The more epochs I have, the better result I will have, and the accuracy improvement stopped at about 40 epochs with 95%
+The smaller learning rate I have, the slower the accuracy can increase. 
+the final paramater I used are Epochs = 40 and learning rate = 0.00097 , batch size = 156
+
+To improve the accuracy, more data is necessary. 
 
 #### 4. Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
 
 My final model results were:
-* training set accuracy of ?
-* validation set accuracy of ? 
-* test set accuracy of ?
+* training set accuracy of 1
+* validation set accuracy of 0.95 
+* test set accuracy of 0.930?
 
 If an iterative approach was chosen:
 * What was the first architecture that was tried and why was it chosen?
