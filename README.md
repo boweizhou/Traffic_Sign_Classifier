@@ -51,6 +51,8 @@ Here is an exploratory visualization of the data set. It is a bar chart showing 
 As a first step, I convert the image from a 3 color RBG to a gray scale image which only include one color. Gray image seems to provide luminance which is by far more important in distinguishing visual features 
 
 Here is an example of a traffic sign image before and after grayscaling.
+
+
 ![alt text](https://github.com/boweizhou/Traffic_Sign_Classifier/blob/modified3/images/original_image.png)
 ![alt text](https://github.com/boweizhou/Traffic_Sign_Classifier/blob/modified3/images/gray_image.png)
 
