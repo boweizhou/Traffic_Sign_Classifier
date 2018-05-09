@@ -46,7 +46,7 @@ Here is an exploratory visualization of the data set. It is a bar chart showing 
 
 
 Here is all signals with label from the training set.
-![alt text](https://github.com/boweizhou/Traffic_Sign_Classifier/blob/modified3/images/index_of_training_pics.png)
+![alt text](https://github.com/boweizhou/Traffic_Sign_Classifier/blob/master/images/Trafic_signal_with_lables.png)
 
 ### Design and Test a Model Architecture
 
