@@ -132,16 +132,14 @@ If a well known architecture was chosen:
 * How does the final model's accuracy on the training, validation and test set provide evidence that the model is working well?
  Althought the leNet architecuture giving good results in this project, but this is an old type of architecture and many newer and better architectures are be developed. 
  If time allows, I would like to choose AlexNet. 
- It is based of Lenet but wider and deeper, this will allow to train network to recognize more complex object and provide more accuracy.
+ It is based of Lenet but wider and deeper, this will allow to train network to recognize more complex object and provide much better accuracy.
 
 ### Test a Model on New Images
 
 #### 1. Choose five German traffic signs found on the web and provide them in the report. For each image, discuss what quality or qualities might be difficult to classify.
 
 Here are five German traffic signs that I found on the web:
-
-![alt text][image4] ![alt text][image5] ![alt text][image6] 
-![alt text][image7] ![alt text][image8]
+![alt text](https://github.com/boweizhou/Traffic_Sign_Classifier/blob/master/images/images_from_german_signal_site.png)
 
 The first image might be difficult to classify because ...
 
