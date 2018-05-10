@@ -92,7 +92,7 @@ My final model consisted of the following layers:
 #### 3. Describe how you trained your model. The discussion can include the type of optimizer, the batch size, number of epochs and any hyperparameters such as learning rate.
 
 To train the model, I have played with different number for epochs and learning rate. 
-The more epochs I have, the better result I will have, and the accuracy improvement stopped at about 40 epochs with 95%
+The more epochs I have, the better result I will have, and the accuracy improvement stopped at about 50 epochs with 95%
 The smaller learning rate I have, the slower the accuracy can increase. 
 the final paramater I used are Epochs = 50 and learning rate = 0.00097 , batch size = 156
 
