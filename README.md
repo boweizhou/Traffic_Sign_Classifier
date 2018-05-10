@@ -42,11 +42,11 @@ Test Set:       12630 samples
 
 Here is an exploratory visualization of the data set. It is a bar chart showing how the data .
 
-![alt text](https://github.com/boweizhou/Traffic_Sign_Classifier/blob/modified3/images/index_of_training_pics.png)
+![alt text](https://github.com/boweizhou/Traffic_Sign_Classifier/blob/modified3/images1/index_of_training_pics.png)
 
 
 Here is all signals with label from the training set.
-![alt text](https://github.com/boweizhou/Traffic_Sign_Classifier/blob/master/images/Trafic_signal_with_lables.png)
+![alt text](https://github.com/boweizhou/Traffic_Sign_Classifier/blob/master/images1/Trafic_signal_with_lables.png)
 
 ### Design and Test a Model Architecture
 
@@ -57,8 +57,8 @@ As a first step, I convert the image from a 3 color RBG to a gray scale image wh
 Here is an example of a traffic sign image before and after grayscaling.
 
 
-![alt text](https://github.com/boweizhou/Traffic_Sign_Classifier/blob/modified3/images/original_image.png)
-![alt text](https://github.com/boweizhou/Traffic_Sign_Classifier/blob/modified3/images/gray_image.png)
+![alt text](https://github.com/boweizhou/Traffic_Sign_Classifier/blob/modified3/images1/original_image.png)
+![alt text](https://github.com/boweizhou/Traffic_Sign_Classifier/blob/modified3/images1/gray_image.png)
 
 As next step, I normalized the image data and gain smaller numbers. 
 
@@ -139,7 +139,7 @@ If a well known architecture was chosen:
 #### 1. Choose five German traffic signs found on the web and provide them in the report. For each image, discuss what quality or qualities might be difficult to classify.
 
 Here are five German traffic signs that I found on the web:
-![alt text](https://github.com/boweizhou/Traffic_Sign_Classifier/blob/master/images/images_from_german_signal_site.png)
+![alt text](https://github.com/boweizhou/Traffic_Sign_Classifier/blob/master/images1/images_from_german_signal_site.png)
 
 
 
@@ -149,7 +149,7 @@ Here are how image looks like when convert to gray scale.
 
 
 
-![alt text](https://github.com/boweizhou/Traffic_Sign_Classifier/blob/master/images/gray_image_germay_traffic_signal_site.png)
+![alt text](https://github.com/boweizhou/Traffic_Sign_Classifier/blob/master/images1/gray_image_germay_traffic_signal_site.png)
 
 Image4, "no vechicles", seems like difficult to recognize, cause there is not a clear pattern. 
 
