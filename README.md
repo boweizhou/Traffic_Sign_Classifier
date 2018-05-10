@@ -42,7 +42,7 @@ Test Set:       12630 samples
 
 Here is an exploratory visualization of the data set. It is a bar chart showing how the data .
 
-![alt text](https://github.com/boweizhou/Traffic_Sign_Classifier/blob/modified3/images1/index_of_training_pics.png)
+![alt text](https://github.com/boweizhou/Traffic_Sign_Classifier/blob/master/images1/index_of_training_pics.png)
 
 
 Here is all signals with label from the training set.
