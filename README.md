@@ -94,7 +94,7 @@ My final model consisted of the following layers:
 To train the model, I have played with different number for epochs and learning rate. 
 The more epochs I have, the better result I will have, and the accuracy improvement stopped at about 40 epochs with 95%
 The smaller learning rate I have, the slower the accuracy can increase. 
-the final paramater I used are Epochs = 40 and learning rate = 0.00097 , batch size = 156
+the final paramater I used are Epochs = 50 and learning rate = 0.00097 , batch size = 156
 
 To improve more accuracy, more data is necessary. 
 
