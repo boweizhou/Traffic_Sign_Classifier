@@ -139,7 +139,7 @@ If a well known architecture was chosen:
 #### 1. Choose five German traffic signs found on the web and provide them in the report. For each image, discuss what quality or qualities might be difficult to classify.
 
 Here are five German traffic signs that I found on the web:
-![alt text](https://github.com/boweizhou/Traffic_Sign_Classifier/blob/master/images1/images_from_german_signal_site.png)
+![alt text](https://github.com/boweizhou/Traffic_Sign_Classifier/blob/master/images1/6_images.png)
 
 
 
@@ -149,8 +149,9 @@ Here are how image looks like when convert to gray scale.
 
 
 
-![alt text](https://github.com/boweizhou/Traffic_Sign_Classifier/blob/master/images1/gray_image_germay_traffic_signal_site.png)
+![alt text](https://github.com/boweizhou/Traffic_Sign_Classifier/blob/master/images1/color_gray.png)
 
+![alt text](https://github.com/boweizhou/Traffic_Sign_Classifier/blob/master/images1/color_to_gray1.png)
 Image4, "no vechicles", seems like difficult to recognize, cause there is not a clear pattern. 
 
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
