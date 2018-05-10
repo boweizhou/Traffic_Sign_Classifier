@@ -57,8 +57,8 @@ As a first step, I convert the image from a 3 color RBG to a gray scale image wh
 Here is an example of a traffic sign image before and after grayscaling.
 
 
-![alt text](https://github.com/boweizhou/Traffic_Sign_Classifier/blob/modified3/images1/original_image.png)
-![alt text](https://github.com/boweizhou/Traffic_Sign_Classifier/blob/modified3/images1/gray_image.png)
+![alt text](https://github.com/boweizhou/Traffic_Sign_Classifier/blob/master/images1/original_image.png)
+![alt text](https://github.com/boweizhou/Traffic_Sign_Classifier/blob/master/images1/gray_image.png)
 
 As next step, I normalized the image data and gain smaller numbers. 
 
