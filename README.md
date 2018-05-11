@@ -40,7 +40,12 @@ Test Set:       12630 samples
 
 #### 2. Include an exploratory visualization of the dataset.
 
-Here is an exploratory visualization of the data set. It is a bar chart showing how the data .
+In total there are 43 signals in the training data sets.
+Following shows the corresponding label to each signals which will be used later for varification and test. 
+
+{'39': 'Keep left', '5': 'Speed limit (80km/h)', '3': 'Speed limit (60km/h)', '31': 'Wild animals crossing', '21': 'Double curve', '10': 'No passing for vehicles over 3.5 metric tons', '40': 'Roundabout mandatory', '20': 'Dangerous curve to the right', '25': 'Road work', '16': 'Vehicles over 3.5 metric tons prohibited', '37': 'Go straight or left', '14': 'Stop', '11': 'Right-of-way at the next intersection', '34': 'Turn left ahead', '26': 'Traffic signals', '33': 'Turn right ahead', '15': 'No vehicles', '36': 'Go straight or right', '9': 'No passing', '2': 'Speed limit (50km/h)', '29': 'Bicycles crossing', '1': 'Speed limit (30km/h)', '19': 'Dangerous curve to the left', '8': 'Speed limit (120km/h)', '38': 'Keep right', '7': 'Speed limit (100km/h)', '12': 'Priority road', '41': 'End of no passing', '24': 'Road narrows on the right', '35': 'Ahead only', '27': 'Pedestrians', '4': 'Speed limit (70km/h)', '42': 'End of no passing by vehicles over 3.5 metric tons', '32': 'End of all speed and passing limits', '6': 'End of speed limit (80km/h)', '22': 'Bumpy road', '30': 'Beware of ice/snow', '23': 'Slippery road', '17': 'No entry', '18': 'General caution', '28': 'Children crossing', '0': 'Speed limit (20km/h)', '13': 'Yield'}
+
+Here is an exploratory visualization of the data set. It is a bar chart showing how the training data looks like.
 
 ![alt text](https://github.com/boweizhou/Traffic_Sign_Classifier/blob/master/images1/index_of_training_pics.png)
 
